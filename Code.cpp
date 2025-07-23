@@ -138,8 +138,8 @@ int main()
         }
         if (lines[i][0] == '#')
         {
-            ans += '\n';
             ans += lineans;
+            ans += '\n';
         }
         else ans += lineans;
     }
